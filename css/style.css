@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'robotobold';
+    src: url('../fonts/roboto-bold-webfont.eot');
+    src: url('../fonts/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-bold-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-bold-webfont.woff') format('woff'),
+    url('../fonts/roboto-bold-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-bold-webfont.svg#robotobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'robotoregular';
+    src: url('../fonts/roboto-regular-webfont.eot');
+    src: url('../fonts/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-regular-webfont.woff2') format('woff2'),
+    url('../fonts/roboto-regular-webfont.woff') format('woff'),
+    url('../fonts/roboto-regular-webfont.ttf') format('truetype'),
+    url('../fonts/roboto-regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.main_banner {
+    background: #F0EFEB;
+    padding: 90px 0;
+
+
+}
+
+.main_banner .container {
+    max-width: 1064px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.main_content_left h1 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+    margin-bottom: 46px;
+}
+
+.main_content_left p {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+    margin-bottom: 33px;
+}
+
+.main_content_left a {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 9px 23px;
+
+}
+
+.main_img {
+    max-width: 599px;
+    max-height: 528px;
+    position: relative;
+    left: 120px;
+}
+
+.our_guides {
+    padding: 60px 0 240px;
+    background: #E5E5E5;
+}
+
+.our_guides .container {
+    max-width: 1064px;
+    margin: auto;
+    text-align: center;
+}
+
+.our_guides h3 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+}
+
+.our_guides p {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+}
+
+.info {
+
+    margin-bottom: 47px;
+}
+
+.ebook {
+    margin-bottom: 88px;
+}
+
+.our_guides h3:last-of-type {
+    margin-bottom: 52px;
+}
+
+.sellers_carts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sellers img {
+    margin-bottom: 27px;
+    max-width: 314px;
+    display: inline-block;
+
+
+}
+
+.sellers h4 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 17px;
+}
+
+.sellers p {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.sellers a {
+    font-family: 'robotobold', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.sellers_carts .owl-item {
+    display: flex;
+    justify-content: space-around;
+}
+

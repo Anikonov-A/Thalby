@@ -10,11 +10,11 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-          /*  768:{
+            768:{
                 items:2
-            },*/
+            },
             1100:{
-                items:5
+                items:3
             }
         }
     });
