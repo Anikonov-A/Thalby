@@ -124,8 +124,8 @@
 
 .sellers img {
     margin-bottom: 27px;
-    max-width: 314px;
-    display: inline-block;
+    max-width: 309px;
+
 
 
 }
@@ -157,5 +157,24 @@
 .sellers_carts .owl-item {
     display: flex;
     justify-content: space-around;
+}
+
+.sellers_carts .owl-dots .owl-dot span  {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: #869791;
+    margin: 16px;
+}
+
+
+
+.sellers_carts .owl-dots .owl-dot.active span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #D399FF;
 }
 
