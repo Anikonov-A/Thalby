@@ -177,4 +177,43 @@
     border-radius: 50%;
     background-color: #D399FF;
 }
+header{
+    background-color: #FFFFFF;
+    padding: 15px 0;
+}
+header .container{
+    max-width: 1064px;
+    margin: auto;
+    position: relative;
+}
+.header_navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu_left li a{
+    font-family: 'robotobold', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #1C1B1B;
+    text-decoration: none;
+    margin-right: 28px;
 
+}
+.header_menu_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_menu_right li a {
+    margin-left: 27px;
+}
+.header_logo{
+    position: absolute;
+    top: 10px;
+    left:calc(50% - 40px)
+}
