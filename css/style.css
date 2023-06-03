@@ -271,6 +271,7 @@ header .container{
     max-width: 1064px;
     margin: auto;
     padding-top: 190px;
+    margin-bottom: 163px;
 }
 .about_features h3{
     font-family: 'robotoregular', sans-serif;
