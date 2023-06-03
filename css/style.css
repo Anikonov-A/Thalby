@@ -217,3 +217,49 @@ header .container{
     top: 10px;
     left:calc(50% - 40px)
 }
+.people{
+    background-color: rgba(204, 204, 204, 0.3);
+    padding: 76px 0 51px;
+}
+.people .container{
+    margin: auto;
+    max-width: 1064px;
+    display: flex;
+    gap: 50px;
+}
+.about_people h4{
+    font-family: 'robotobold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 31px;
+    padding-top: 70px;
+}
+.about_people p{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.about_people a{
+    font-family: 'robotobold', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    color: #000000;
+}
+.people_reverse{
+    background-color: rgba(204, 204, 204, 0.6);
+    padding: 76px 0 51px;
+}
+.people_reverse .container{
+    margin: auto;
+    max-width: 1064px;
+    display: flex;
+    gap: 50px;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.people_reverse .about_people h4{
+    padding-top: 92px;
+}
