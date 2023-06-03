@@ -78,7 +78,7 @@
 
 .our_guides {
     padding: 60px 0 240px;
-    background: #E5E5E5;
+    background: #FFFFFF;
 }
 
 .our_guides .container {
@@ -218,7 +218,7 @@ header .container{
     left:calc(50% - 40px)
 }
 .people{
-    background-color: rgba(204, 204, 204, 0.3);
+    background-color: rgba(204, 204, 204, 0.3);;
     padding: 76px 0 51px;
 }
 .people .container{
@@ -264,7 +264,7 @@ header .container{
     padding-top: 92px;
 }
 .about_features{
-    background: #E5E5E5;
+    background: #FFFFFF;
     padding-top: 190px;
 }
 .about_features .container{
