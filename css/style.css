@@ -127,7 +127,6 @@
     max-width: 309px;
 
 
-
 }
 
 .sellers h4 {
@@ -159,7 +158,7 @@
     justify-content: space-around;
 }
 
-.sellers_carts .owl-dots .owl-dot span  {
+.sellers_carts .owl-dots .owl-dot span {
     display: inline-block;
     width: 16px;
     height: 16px;
@@ -169,33 +168,37 @@
 }
 
 
-
-.sellers_carts .owl-dots .owl-dot.active span{
+.sellers_carts .owl-dots .owl-dot.active span {
     display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: #D399FF;
 }
-header{
+
+header {
     background-color: #FFFFFF;
     padding: 15px 0;
 }
-header .container{
+
+header .container {
     max-width: 1064px;
     margin: auto;
     position: relative;
 }
-.header_navbar{
+
+.header_navbar {
     display: flex;
     justify-content: space-between;
 }
-.header_menu_left{
+
+.header_menu_left {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header_menu_left li a{
+
+.header_menu_left li a {
     font-family: 'robotobold', sans-serif;
     font-size: 16px;
     line-height: 26px;
@@ -204,30 +207,36 @@ header .container{
     margin-right: 28px;
 
 }
-.header_menu_right{
+
+.header_menu_right {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header_menu_right li a {
     margin-left: 27px;
 }
-.header_logo{
+
+.header_logo {
     position: absolute;
     top: 10px;
-    left:calc(50% - 40px)
+    left: calc(50% - 40px)
 }
-.people{
+
+.people {
     background-color: rgba(204, 204, 204, 0.3);;
     padding: 76px 0 51px;
 }
-.people .container{
+
+.people .container {
     margin: auto;
     max-width: 1064px;
     display: flex;
     gap: 50px;
 }
-.about_people h4{
+
+.about_people h4 {
     font-family: 'robotobold', sans-serif;
     font-size: 36px;
     line-height: 42px;
@@ -235,24 +244,28 @@ header .container{
     margin-bottom: 31px;
     padding-top: 70px;
 }
-.about_people p{
+
+.about_people p {
     font-family: 'robotoregular', sans-serif;
     font-size: 36px;
     line-height: 42px;
     color: #000000;
     margin-bottom: 40px;
 }
-.about_people a{
+
+.about_people a {
     font-family: 'robotobold', sans-serif;
     font-size: 17px;
     line-height: 20px;
     color: #000000;
 }
-.people_reverse{
+
+.people_reverse {
     background-color: rgba(204, 204, 204, 0.6);
     padding: 76px 0 51px;
 }
-.people_reverse .container{
+
+.people_reverse .container {
     margin: auto;
     max-width: 1064px;
     display: flex;
@@ -260,20 +273,24 @@ header .container{
     flex-direction: row-reverse;
     text-align: right;
 }
-.people_reverse .about_people h4{
+
+.people_reverse .about_people h4 {
     padding-top: 92px;
 }
-.about_features{
+
+.about_features {
     background: #FFFFFF;
     padding-top: 190px;
 }
-.about_features .container{
+
+.about_features .container {
     max-width: 1064px;
     margin: auto;
     padding-top: 190px;
-    margin-bottom: 163px;
+
 }
-.about_features h3{
+
+.about_features h3 {
     font-family: 'robotoregular', sans-serif;
     font-size: 36px;
     line-height: 42px;
@@ -281,29 +298,35 @@ header .container{
     color: #000000;
     margin-bottom: 69px;
 }
-.article_group{
+
+.article_group {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 163px;
 
 }
-.article_group article{
+
+.article_group article {
     width: 33.333%;
     margin-bottom: 111px;
 
 }
-.article_group img{
+
+.article_group img {
     margin-bottom: 26px;
 }
-.article_group h5{
+
+.article_group h5 {
     font-family: 'robotobold', sans-serif;
     font-size: 30px;
     line-height: 35px;
     text-align: center;
     color: #000000;
 }
-.article_group a{
+
+.article_group a {
     text-decoration: none;
 }
