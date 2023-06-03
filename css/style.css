@@ -278,7 +278,7 @@ header .container{
     line-height: 42px;
     text-align: center;
     color: #000000;
-    margin-bottom: 112px;
+    margin-bottom: 69px;
 }
 .article_group{
     display: flex;
@@ -291,6 +291,7 @@ header .container{
 .article_group article{
     width: 33.333%;
     margin-bottom: 111px;
+
 }
 .article_group img{
     margin-bottom: 26px;
