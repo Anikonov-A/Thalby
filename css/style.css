@@ -263,3 +263,45 @@ header .container{
 .people_reverse .about_people h4{
     padding-top: 92px;
 }
+.about_features{
+    background: #E5E5E5;
+    padding-top: 190px;
+}
+.about_features .container{
+    max-width: 1064px;
+    margin: auto;
+    padding-top: 190px;
+}
+.about_features h3{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 112px;
+}
+.article_group{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.article_group article{
+    width: 33.333%;
+    margin-bottom: 111px;
+}
+.article_group img{
+    margin-bottom: 26px;
+}
+.article_group h5{
+    font-family: 'robotobold', sans-serif;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    color: #000000;
+}
+.article_group a{
+    text-decoration: none;
+}
