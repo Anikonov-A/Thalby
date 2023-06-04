@@ -256,16 +256,12 @@ header .container {
     color: #000000;
 }
 
-.people_reverse {
+.reverse {
     background-color: rgba(204, 204, 204, 0.6);
     padding: 76px 0 51px;
 }
 
-.people_reverse .container {
-    margin: auto;
-    max-width: 1064px;
-    display: flex;
-    gap: 50px;
+.reverse .container {
     flex-direction: row-reverse;
     text-align: right;
 }
@@ -292,7 +288,7 @@ header .container {
     line-height: 42px;
     text-align: center;
     color: #000000;
-    margin-bottom: 69px;
+    margin-bottom: 165px;
 }
 
 .article_group {
@@ -302,18 +298,44 @@ header .container {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 163px;
+    row-gap: 111px;
+
 
 }
 
 .article_group article {
     width: 33.333%;
     margin-bottom: 111px;
+    position: relative;
 
 }
 
-.article_group img {
-    margin-bottom: 26px;
+.article_group article:before {
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-color: #21F7EC;
+    border-radius: 35px;
+    bottom: 100px;
+    left: 40%;
 }
+.article_group article:nth-child(2):before{
+    background-color: #33D3BC;
+}
+.article_group article:nth-child(3):before{
+    background-color: #18A5C6;
+}
+.article_group article:nth-child(4):before{
+    background-color: #D38F62;
+}
+.article_group article:nth-child(5):before{
+    background-color: #F94C43;
+}
+.article_group article:nth-child(6):before{
+    background-color: #D399FF;
+}
+
 
 .article_group h5 {
     font-family: 'robotobold', sans-serif;
@@ -321,6 +343,7 @@ header .container {
     line-height: 35px;
     text-align: center;
     color: #000000;
+
 }
 
 .article_group a {
