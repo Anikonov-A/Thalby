@@ -45,7 +45,7 @@
     font-size: 60px;
     line-height: 70px;
     color: #000000;
-    margin-bottom: 46px;
+    margin:0 0 46px 0;
 }
 
 .main_content_left p {
@@ -121,12 +121,11 @@
     display: flex;
     justify-content: space-between;
 }
-
+.sellers{
+    max-width: 309px;
+}
 .sellers img {
     margin-bottom: 27px;
-    max-width: 309px;
-
-
 }
 
 .sellers h4 {
@@ -185,17 +184,14 @@ header .container {
     max-width: 1064px;
     margin: auto;
     position: relative;
-}
-
-.header_navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header_menu_left {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .header_menu_left li a {
