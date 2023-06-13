@@ -45,7 +45,7 @@
     font-size: 60px;
     line-height: 70px;
     color: #000000;
-    margin:0 0 46px 0;
+    margin: 0 0 46px 0;
 }
 
 .main_content_left p {
@@ -121,9 +121,11 @@
     display: flex;
     justify-content: space-between;
 }
-.sellers{
+
+.sellers {
     max-width: 309px;
 }
+
 .sellers img {
     margin-bottom: 27px;
 }
@@ -297,7 +299,7 @@ header .container {
     text-align: center;
     justify-content: space-between;
     align-items: center;
-  /*  margin-bottom: 163px;*/
+    /*  margin-bottom: 163px;*/
     row-gap: 111px;
 
 
@@ -320,19 +322,24 @@ header .container {
     bottom: 100px;
     left: 40%;
 }
-.article_group article:nth-child(2):before{
+
+.article_group article:nth-child(2):before {
     background-color: #33D3BC;
 }
-.article_group article:nth-child(3):before{
+
+.article_group article:nth-child(3):before {
     background-color: #18A5C6;
 }
-.article_group article:nth-child(4):before{
+
+.article_group article:nth-child(4):before {
     background-color: #D38F62;
 }
-.article_group article:nth-child(5):before{
+
+.article_group article:nth-child(5):before {
     background-color: #F94C43;
 }
-.article_group article:nth-child(6):before{
+
+.article_group article:nth-child(6):before {
     background-color: #D399FF;
 }
 
@@ -349,15 +356,19 @@ header .container {
 .article_group a {
     text-decoration: none;
 }
-.people_interviews{
-    padding:104px 0 52px 0;
-    background-image: linear-gradient(to bottom, #FFFFFF,#FFFFFF 50%,#F0F0F0 50%,#F0F0F0);
+
+.people_interviews {
+    padding: 104px 0 52px 0;
+    background-image: linear-gradient(to bottom, #FFFFFF, #FFFFFF 50%, #F0F0F0 50%, #F0F0F0);
 }
-.container{
+
+.container {
     max-width: 1064px;
     margin: auto;
+    text-align: center;
 }
-.people_interviews .container h2{
+
+.people_interviews .container h2 {
     font-family: 'robotobold', sans-serif;
     font-size: 36px;
     line-height: 42px;
@@ -366,15 +377,18 @@ header .container {
     margin-bottom: 102px;
 
 }
-.people_int{
+
+.people_int {
     display: flex;
     justify-content: space-between;
-    text-align: center;
+
 }
-.people_int img{
+
+.people_int img {
     margin-bottom: 35px;
 }
-.people_int p:first-of-type{
+
+.people_int p:first-of-type {
     margin-bottom: 40px;
     font-family: 'robotobold', sans-serif;
     font-size: 22px;
@@ -383,7 +397,8 @@ header .container {
     letter-spacing: 0.6px;
     color: #000000;
 }
-.people_int p:last-of-type{
+
+.people_int p:last-of-type {
     font-family: 'robotoregular', sans-serif;
     font-size: 19px;
     line-height: 22px;
@@ -392,12 +407,86 @@ header .container {
     margin-bottom: 44px;
 
 }
-.people_int a{
+
+.people_int a {
     font-family: 'robotobold', sans-serif;
     font-size: 18px;
     line-height: 21px;
     text-align: center;
     text-decoration-line: underline;
     color: #000000;
+}
 
+.subscribe_page {
+    padding: 79px 0 98px;
+}
+
+.subscribe_page h2 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.subscribe_page h4 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.input_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+.input_top input {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border: 1px solid #000000;
+    width: 153px;
+    height: 39px;
+    padding: 0 0 0 8px;
+    margin-bottom: 18px;
+    outline: none;
+    box-sizing: border-box;
+}
+.input_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input_bottom input {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #A0A0A0;
+    border: 1px solid #000000;
+    width: 366px;
+    height: 39px;
+    padding: 0 0 0 8px;
+    margin-bottom: 23px;
+    box-sizing: border-box;
+    outline: none;
+
+}
+
+.input_bottom button {
+    padding: 7px 23px 10px;
+    background: #000000;
+    border: 1px solid #000000;
+    border-radius: 100px;
+    font-family: 'robotoregular', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
 }
