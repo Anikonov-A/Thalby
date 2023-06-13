@@ -297,7 +297,7 @@ header .container {
     text-align: center;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 163px;
+  /*  margin-bottom: 163px;*/
     row-gap: 111px;
 
 
@@ -348,4 +348,56 @@ header .container {
 
 .article_group a {
     text-decoration: none;
+}
+.people_interviews{
+    padding:104px 0 52px 0;
+    background-image: linear-gradient(to bottom, #FFFFFF,#FFFFFF 50%,#F0F0F0 50%,#F0F0F0);
+}
+.container{
+    max-width: 1064px;
+    margin: auto;
+}
+.people_interviews .container h2{
+    font-family: 'robotobold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 102px;
+
+}
+.people_int{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.people_int img{
+    margin-bottom: 35px;
+}
+.people_int p:first-of-type{
+    margin-bottom: 40px;
+    font-family: 'robotobold', sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.6px;
+    color: #000000;
+}
+.people_int p:last-of-type{
+    font-family: 'robotoregular', sans-serif;
+    font-size: 19px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 44px;
+
+}
+.people_int a{
+    font-family: 'robotobold', sans-serif;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #000000;
+
 }
