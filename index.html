@@ -13,37 +13,67 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
 
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <header>
-    <div class="container">
-        <nav class="header_navbar">
-            <ul class="header_menu_left">
-                <li><a href="#" target="_blank">Shop</a></li>
-                <li><a href="#" target="_blank">Collections</a></li>
-                <li><a href="#" target="_blank">Try a Free Guide</a></li>
-                <li><a href="#" target="_blank">Stories</a></li>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container position-relative">
+            <a href="#" target="_blank" class="navbar-brand position-absolute"><img class="header_logo"
+                                                                                    src="img/logo.svg"
+                                                                                    alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                 aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-start flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Collections</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Try a Free Guide</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Stories</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <ul class="header_menu_right">
+                <li><a href="#" target="_blank"><img src="img/insta.svg" alt="inst"></a></li>
+                <li><a href="#" target="_blank"><img src="img/search.svg" alt="search"></a></li>
+                <li><a href="#" target="_blank"><img src="img/shoping.svg" alt="shop"></a></li>
             </ul>
-        </nav>
-        <a href="#" target="_blank"><img class="header_logo" src="img/logo.svg" alt="logo"></a>
-        <ul class="header_menu_right">
-            <li><a href="#" target="_blank"><img src="img/insta.svg" alt="inst"></a></li>
-            <li><a href="#" target="_blank"><img src="img/search.svg" alt="search"></a></li>
-            <li><a href="#" target="_blank"><img src="img/shoping.svg" alt="shop"></a></li>
-        </ul>
-    </div>
+        </div>
+    </nav>
 </header>
+
 <main>
     <section class="main_banner">
-        <div class="container">
-            <div class="main_content_left">
-                <h1>Fall deeper in love with humanity</h1>
-                <p>Get to know the world through our concise, informative and inspiring guides.</p>
-                <a href="#">Shop Now</a>
-            </div>
-            <div class="main_content_right">
-                <img class="main_img" src="img/main_banner.jpg" alt="main_img">
+        <div class="container text-start">
+            <div class="row d-flex">
+                <div class="main_content_left col-xl-6 col-12 col-md-5">
+                    <h1>Fall deeper in love with humanity</h1>
+                    <p>Get to know the world through our concise, informative and inspiring guides.</p>
+                    <a href="#">Shop Now</a>
+                </div>
+                <div class="main_content_right col-xl-6 col-md-7">
+                    <img class="main_img" src="img/main_banner.jpg" alt="main_img" width="599" height="521">
+                </div>
             </div>
         </div>
     </section>
@@ -93,140 +123,135 @@
                     <p>USD 6.99</p>
                     <a href="#">Add to cart</a>
                 </article>
-                <article class="sellers">
-                    <img src="img/seller_cart1.jpg" alt="seller_cart">
-                    <h4>Thalby Guide to <br> French Culture and <br> Heritage</h4>
-                    <p>USD 6.99</p>
-                    <a href="#">Add to cart</a>
-                </article>
-                <article class="sellers">
-                    <img src="img/seller_cart2.jpg" alt="seller_cart">
-                    <h4>Thalby Guide to <br> French Culture and <br> Heritage</h4>
-                    <p>USD 6.99</p>
-                    <a href="#">Add to cart</a>
-                </article>
-                <article class="sellers">
-                    <img src="img/seller_cart3.jpg" alt="seller_cart">
-                    <h4>Thalby Guide to <br> French Culture and <br> Heritage</h4>
-                    <p>USD 6.99</p>
-                    <a href="#">Add to cart</a>
-                </article>
             </div>
         </div>
     </section>
     <section class="people">
         <div class="container">
-            <img src="img/people_cart1.png" alt="cart1">
-            <div class="about_people">
-                <h4>People and Society</h4>
-                <p>Our guides to society deliver all <br> the social insight you need,<br> helping you understand how
-                    <br> people
-                    live, love and play today <br> and why communities are the way they are.</p>
-                <a href="#" target="_blank">Shop Society Guides</a>
+            <div class="row">
+                <div class="people_img col-lg-5 col-md-6 col-6">
+                    <img src="img/people_cart1.png" alt="cart1">
+                </div>
+                <div class="about_people col-lg-7 col-md-6 col-6 d-flex flex-column align-items-start justify-content-center">
+                    <h4>People and Society</h4>
+                    <p class="text-start">Our guides to society deliver all the social insight you need, helping you
+                        understand how people live, love and play today and why communities are the way they are.</p>
+                    <a class="shop_link" href="#" target="_blank">Shop Society Guides</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="people reverse">
         <div class="container">
-            <img src="img/people_cart2.png" alt="cart1">
-            <div class="about_people">
-                <h4>Culture and Heritage</h4>
-                <p>As well as covering heritage <br> and tradition, our guides to <br> culture introduce you to the <br>
-                    designers, artists and chefs
-                    <br> creating at the forefront of <br> today's culture.</p>
-                <a href="#" target="_blank">Shop Culture Guides</a>
+            <div class="row flex-row-reverse">
+                <div class="people_img col-lg-5 col-md-6 col-6">
+                    <img src="img/people_cart2.png" alt="cart1">
+                </div>
+                <div class="about_people col-lg-7 col-md-6 col-6 d-flex flex-column align-items-start justify-content-center">
+                    <h4>Culture and Heritage</h4>
+                    <p class="text-start">As well as covering heritage and tradition, our guides to culture introduce
+                        you to the <
+                        designers, artists and chefs
+                        creating at the forefront of today's culture.</p>
+                    <a class="shop_link" href="#" target="_blank">Shop Culture Guides</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="people">
         <div class="container">
-            <img src="img/people_cart3.png" alt="cart1">
-            <div class="about_people">
-                <h4>Power and Politics</h4>
-                <p>Our guides to power take you <br> behind the scenes to explore the <br> power dynamics, policies and
-                    <br> politics shaping a country's <br> future and its global position.</p>
-                <a href="#" target="_blank">Coming 2022!</a>
+            <div class="row">
+                <div class="people_img col-lg-5 col-md-6 col-6">
+                    <img src="img/people_cart3.png" alt="cart1">
+                </div>
+                <div class="about_people col-lg-7 col-md-6 col-6 d-flex flex-column align-items-start justify-content-center">
+                    <h4>Power and Politics</h4>
+                    <p class="text-start">Our guides to power take you behind the scenes to explore the power dynamics,
+                        policies and
+                        politics shaping a country's future and its global position.</p>
+                    <a class="shop_link" href="#" target="_blank">Coming 2022!</a>
+                </div>
             </div>
         </div>
     </section>
     <section class="about_features">
-        <div class="container">
-            <h3>Some of the features that <br>make Thalby guides unique</h3>
-            <div class="article_group">
-                <article>
-                    <a href="#" target="_blank">
-                        <h5>Written by <br> locals</h5>
+            <div class="container">
+                <h3>Some of the features that <br>make Thalby guides unique</h3>
+                <div class="article_group row flex-wrap">
+                    <article class="col-lg-4 col-md-6 col-6">
+                        <a href="#" target="_blank">
+                            <h5>Written by <br> locals</h5>
+                        </a>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-6">
+                        <a href="#" target="_blank">
+                            <h5>Packed with <br> insight</h5>
+                        </a>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-6">
+                        <a href="#" target="_blank">
+                            <h5>Interviews with <br> diverse voices</h5>
+                        </a>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-6">
+                        <a href="#" target="_blank">
+                        <h5>Key facts and <br> etiquette tips</h5>
                     </a>
-                </article>
-                <article>
-                    <a href="#" target="_blank">
-                        <h5>Packed with <br> insight</h5>
-                    </a>
-                </article>
-                <article>
-                    <a href="#" target="_blank">
-                        <h5>Interviews with <br> diverse voices</h5>
-                    </a>
-                </article>
-                <article><a href="#" target="_blank">
-
-                    <h5>Key facts and <br> etiquette tips</h5>
-                </a>
-                </article>
-                <article>
-                    <a href="#" target="_blank">
-                        <h5>A concise <br> 1-hour read</h5>
-                    </a>
-                </article>
-                <article>
-                    <a href="#" target="_blank">
-                        <h5>Instant <br> digital access</h5>
-                    </a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section class="people_interviews">
-        <div class="container">
-            <h2>Each Thalby guide includes interviews with <br>a range of fascinating voices, such as </h2>
-            <div class="people_int">
-                <article>
-                    <img src="img/people1.png" alt="people_cart">
-                    <p>"I don’t like things to be <br> conventional. If it’s too <br> nice, I bring disorder."</p>
-                    <p>Camille Muller, <br>Landscape Designer, France</p>
-                    <a href="#">Discover</a>
-                </article>
-                <article>
-                    <img src="img/people2.png" alt="people_cart">
-                    <p>"Magic is not magic in <br> the sense that I can just <br> wish for anything."</p>
-                    <p>Sonia Kowalewski,<br>Witch, Germany</p>
-                    <a href="#">Discover</a>
-                </article>
-                <article>
-                    <img src="img/people3.png" alt="people_cart">
-                    <p>"I was eight years old <br> when I entered my first <br> competition. I won it."</p>
-                    <p>Lilly Stoephasius,<br>Skateboarder, Germany</p>
-                    <a href="#">Discover</a>
-                </article>
-            </div>
-        </div>
-    </section>
-    <section class="subscribe_page">
-        <div class="container">
-            <h2>Keep in touch</h2>
-            <h4>Get our travel advice, global views and travel freebies in your <br> inbox</h4>
-            <form action="#" method="post">
-                <div class="input_top">
-                    <input placeholder="First Name" type="text">
-                    <input placeholder="Last Name" type="text">
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-6">
+                        <a href="#" target="_blank">
+                            <h5>A concise <br> 1-hour read</h5>
+                        </a>
+                    </article>
+                    <article class="col-lg-4 col-md-6 col-6">
+                        <a href="#" target="_blank">
+                            <h5>Instant <br> digital access</h5>
+                        </a>
+                    </article>
                 </div>
-                <div class="input_bottom">
-                    <input placeholder="Email" type="email">
-                    <button type="submit">Subscribe</button>
+            </div>
+        </section>
+        <section class="people_interviews">
+            <div class="container">
+                <h2>Each Thalby guide includes interviews with a range of fascinating voices, such as </h2>
+                <div class="people_int row justify-content-between">
+                    <article class="col-lg-4 col-md-4 col-4 flex-column d-flex justify-content-between">
+                        <img src="img/people1.png" alt="people_cart">
+                        <p>"I don’t like things to be conventional. If it’s too nice, I bring disorder."</p>
+                        <p>Camille Muller, <br>Landscape Designer, France</p>
+                        <a href="#">Discover</a>
+                    </article>
+                    <article class="col-lg-4 col-md-4 col-4 flex-column d-flex justify-content-between">
+                        <img src="img/people2.png" alt="people_cart">
+                        <p>"Magic is not magic in the sense that I can justwish for anything."</p>
+                        <p>Sonia Kowalewski,<br>Witch, Germany</p>
+                        <a href="#">Discover</a>
+                    </article>
+                    <article class="col-lg-4 col-md-4 col-4 flex-column d-flex justify-content-between">
+                        <img src="img/people3.png" alt="people_cart">
+                        <p>"I was eight years old when I entered my first competition. I won it."</p>
+                        <p>Lilly Stoephasius,<br>Skateboarder, Germany</p>
+                        <a href="#">Discover</a>
+                    </article>
                 </div>
-            </form>
-        </div>
-    </section>
+            </div>
+        </section>
+        <section class="subscribe_page">
+            <div class="container">
+                <h2>Keep in touch</h2>
+                <h4>Get our travel advice, global views and travel freebies in your <br> inbox</h4>
+                <form action="#" method="post">
+                    <div class="input_top col-lg-12 col-md-12">
+                        <input placeholder="First Name" type="text">
+                        <input placeholder="Last Name" type="text">
+                    </div>
+                    <div class="input_bottom col-lg-12 col-md-12">
+                        <input placeholder="Email" type="email">
+                        <button type="submit">Subscribe</button>
+                    </div>
+                </form>
+            </div>
+        </section>
 </main>
 <footer>
     <div class="container">
@@ -257,6 +282,7 @@
         <p>Thalby LLC © 2021</p>
     </div>
 </footer>
+<script src="js/bootstrap.js"></script>
 <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>

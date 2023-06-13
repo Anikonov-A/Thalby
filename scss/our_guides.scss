@@ -1,0 +1,120 @@
+
+.our_guides {
+  padding: 60px 0 240px;
+  background: #FFFFFF;
+  @include max-screen(575px) {
+    padding: 40px 0;
+  }
+
+  .info {
+    margin-bottom: 47px;
+    @include max-screen(575px) {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+  }
+
+  .ebook {
+    margin-bottom: 88px;
+    @include max-screen(575px) {
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+  }
+
+  p {
+    font-family: 'robotoregular', sans-serif;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+  }
+
+  h3 {
+    font-family: 'robotobold', sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 27px;
+    @include max-screen(575px) {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+
+  .container {
+    max-width: 1064px;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+
+.our_guides h3:last-of-type {
+  margin-bottom: 52px;
+  @include max-screen(575px) {
+    margin-bottom: 25px;
+  }
+}
+
+.sellers_carts {
+  display: flex;
+  justify-content: space-between;
+
+  .sellers {
+    max-width: 309px;
+
+    img {
+      margin-bottom: 27px;
+    }
+
+    h4 {
+      font-family: 'robotobold', sans-serif;
+      font-size: 17px;
+      line-height: 20px;
+      color: #000000;
+      margin-bottom: 17px;
+    }
+
+    p {
+      font-family: 'robotoregular', sans-serif;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      color: #000000;
+      margin-bottom: 10px;
+    }
+
+    a {
+      font-family: 'robotobold', sans-serif;
+      font-size: 17px;
+      line-height: 20px;
+      color: #000000;
+    }
+  }
+}
+
+
+.sellers_carts .owl-item {
+  display: flex;
+  justify-content: space-around;
+}
+
+.sellers_carts .owl-dots .owl-dot span {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: #869791;
+  margin: 16px;
+}
+
+
+.sellers_carts .owl-dots .owl-dot.active span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #D399FF;
+}

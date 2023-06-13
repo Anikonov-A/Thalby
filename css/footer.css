@@ -1,0 +1,65 @@
+footer {
+  background: #020202;
+  padding: 61px 0 16px;
+}
+
+footer .container {
+  max-width: 1064px;
+  margin: auto;
+}
+
+.footer_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ft_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.social_links {
+  display: flex;
+  gap: 23px;
+}
+
+.ft_logo {
+  margin-bottom: 45px;
+}
+
+.ft_right {
+  display: flex;
+  gap: 72px;
+  text-align: start;
+  margin-bottom: 20px;
+}
+
+.ft_right li {
+  margin-bottom: 12px;
+}
+
+.ft_right li a {
+  text-decoration: none;
+  font-family: "robotoregular", sans-serif;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.ft_right li:first-of-type {
+  margin-bottom: 36px;
+}
+
+.ft_right li:first-of-type a {
+  line-height: 23px;
+}
+
+footer p {
+  font-family: "robotoregular", sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=footer.css.map */

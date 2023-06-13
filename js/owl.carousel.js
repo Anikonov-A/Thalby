@@ -905,8 +905,8 @@
 				// on a left pull, check on current index
 				if (direction === 'left' && coordinate > value - pull && coordinate < value + pull) {
 					position = index;
-				// on a right pull, check on previous index
-				// to do so, subtract width from value and set position = index + 1
+					// on a right pull, check on previous index
+					// to do so, subtract width from value and set position = index + 1
 				} else if (direction === 'right' && coordinate > value - width - pull && coordinate < value - width + pull) {
 					position = index + 1;
 				} else if (this.op(coordinate, '<', value)
@@ -1923,9 +1923,9 @@
 						n += settings.lazyLoadEager;
 						// If the carousel is looping also preload images that are to the "left"
 						if (settings.loop) {
-              position -= settings.lazyLoadEager;
-              n++;
-            }
+							position -= settings.lazyLoadEager;
+							n++;
+						}
 					}
 
 					while (i++ < n) {
@@ -1968,7 +1968,7 @@
 
 		$elements.each($.proxy(function(index, element) {
 			var $element = $(element), image,
-                url = (window.devicePixelRatio > 1 && $element.attr('data-src-retina')) || $element.attr('data-src') || $element.attr('data-srcset');
+				url = (window.devicePixelRatio > 1 && $element.attr('data-src-retina')) || $element.attr('data-src') || $element.attr('data-srcset');
 
 			this._core.trigger('load', { element: $element, url: url }, 'lazy');
 
@@ -1977,10 +1977,10 @@
 					$element.css('opacity', 1);
 					this._core.trigger('loaded', { element: $element, url: url }, 'lazy');
 				}, this)).attr('src', url);
-            } else if ($element.is('source')) {
-                $element.one('load.owl.lazy', $.proxy(function() {
-                    this._core.trigger('loaded', { element: $element, url: url }, 'lazy');
-                }, this)).attr('srcset', url);
+			} else if ($element.is('source')) {
+				$element.one('load.owl.lazy', $.proxy(function() {
+					this._core.trigger('loaded', { element: $element, url: url }, 'lazy');
+				}, this)).attr('srcset', url);
 			} else {
 				image = new Image();
 				image.onload = $.proxy(function() {
@@ -2254,19 +2254,19 @@
 	 * @param {jQuery} item - The item containing the video.
 	 */
 	Video.prototype.fetch = function(target, item) {
-			var type = (function() {
-					if (target.attr('data-vimeo-id')) {
-						return 'vimeo';
-					} else if (target.attr('data-vzaar-id')) {
-						return 'vzaar'
-					} else {
-						return 'youtube';
-					}
-				})(),
-				id = target.attr('data-vimeo-id') || target.attr('data-youtube-id') || target.attr('data-vzaar-id'),
-				width = target.attr('data-width') || this._core.settings.videoWidth,
-				height = target.attr('data-height') || this._core.settings.videoHeight,
-				url = target.attr('href');
+		var type = (function() {
+				if (target.attr('data-vimeo-id')) {
+					return 'vimeo';
+				} else if (target.attr('data-vzaar-id')) {
+					return 'vzaar'
+				} else {
+					return 'youtube';
+				}
+			})(),
+			id = target.attr('data-vimeo-id') || target.attr('data-youtube-id') || target.attr('data-vzaar-id'),
+			width = target.attr('data-width') || this._core.settings.videoWidth,
+			height = target.attr('data-height') || this._core.settings.videoHeight,
+			url = target.attr('href');
 
 		if (url) {
 
@@ -2452,7 +2452,7 @@
 	 */
 	Video.prototype.isInFullScreen = function() {
 		var element = document.fullscreenElement || document.mozFullScreenElement ||
-				document.webkitFullscreenElement;
+			document.webkitFullscreenElement;
 
 		return element && $(element).parent().hasClass('owl-video-frame');
 	};
